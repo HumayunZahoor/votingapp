@@ -3,7 +3,7 @@
 @section('title', 'Home')
 
 @section('content')
-    <div class="container mx-auto pt-4">
+    <div class="container mx-auto pt-4 relative">
         <div class="flex px-3 py-3 bg-gradient-to-r from-indigo-950 to-gray-950 rounded-xl">
             <h1 class="text-base font-serif font-semibold text-white">We are open by appointment only</h1>
             <span class="text-base font-serif text-white ml-3 mr-3">/</span>

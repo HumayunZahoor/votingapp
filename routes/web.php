@@ -29,4 +29,6 @@ Route::get('/campaign' , function () { return view('campaign');})->name('campaig
 
 Route::get('/news' , function () { return view('news');})->name('news');
 
+Route::get('/apply' , function () { return view('apply');})->name('apply');
+
 

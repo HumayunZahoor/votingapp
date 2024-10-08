@@ -4,8 +4,16 @@
 
 @section('content')
 
-<div class="container mx-auto p-4 lg:h-screen">
-    <h1 class="text-3xl font-bold text-center mb-6">Voting Page</h1>
+<div class="container mx-auto p-4 lg:h-screen relative">
+<div class="absolute top-10 left-0">
+    <a href="/ballot" class="bg-indigo-950 text-white py-2 px-4 rounded-lg font-semibold hover:bg-gray-950 transition duration-200">
+        <i class="fas fa-arrow-left"></i> 
+    </a>
+</div>
+<div class="max-w-4xl mx-auto bg-white p-4 rounded-lg shadow-lg">
+<h1 class="text-3xl font-bold text-indigo-950 text-center mb-6">
+<i class="fas fa-vote-yea"></i>  Cast Your Vote
+        </h1>
     <p class="text-center mb-4">You can cast your vote here</p>
 
     
@@ -48,10 +56,7 @@
             </button>
         </div>
     </form>
-
-    <div class="mt-16 text-center">
-        <a href="/" class="bg-gray-900 text-white font-semibold text-lg font-serif py-2 px-4 rounded  hover:bg-gray-900">Back</a>
-    </div>
+</div>
 </div>
 
 @endsection
