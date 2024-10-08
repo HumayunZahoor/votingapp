@@ -28,6 +28,11 @@
                     Contact Us
                 </a>
             </li>
+            <li>
+                <a class="text-white font-semibold text-lg font-serif py-2 px-4 rounded hover:bg-indigo-950 transition duration-200" href="{{ route('register') }}">
+                    Registration
+                </a>
+            </li>
         </ul>
     </div>
     
@@ -48,8 +53,8 @@
             </a>
         </li>
         <li>
-            <a class="text-white font-semibold text-lg font-serif py-2 px-4 rounded hover:bg-indigo-950 transition duration-200" href="{{ route('project') }}">
-                Projects
+            <a class="text-white font-semibold text-lg font-serif py-2 px-4 rounded hover:bg-indigo-950 transition duration-200" href="{{ route('register') }}">
+                Registration
             </a>
         </li>
     </ul>
