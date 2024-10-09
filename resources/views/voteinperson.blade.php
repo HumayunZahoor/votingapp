@@ -5,13 +5,13 @@
 @section('content')
 
 <div class="container mx-auto p-4 lg:h-screen h-screen relative">
-<div class="absolute top-10 left-0">
-    <a href="/" class="bg-indigo-950 text-white py-2 px-4 rounded-lg font-semibold hover:bg-gray-950 transition duration-200">
+<div class="absolute lg:top-10 top-9 left-0 lg:mr-0 mr-8">
+    <a href="/" class="bg-indigo-950 text-white lg:py-2 lg:px-4 px-2 rounded-lg font-semibold hover:bg-gray-950 transition duration-200">
         <i class="fas fa-arrow-left"></i> 
     </a>
 </div>
     <div class="max-w-4xl mx-auto bg-white p-4 rounded-lg shadow-lg">
-        <h1 class="text-3xl font-bold text-center mb-6 text-indigo-950">
+        <h1 class="lg:text-3xl text-xl font-bold text-center mb-6 text-indigo-950">
             <i class="fas fa-map-marker-alt"></i> Where to Vote in Person
         </h1>
 

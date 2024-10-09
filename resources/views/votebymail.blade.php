@@ -4,13 +4,13 @@
 
 @section('content')
 <div class="container mx-auto p-4 h-fit relative">
-<div class="absolute top-10 left-0">
-    <a href="/" class="bg-indigo-950 text-white py-2 px-4 rounded-lg font-semibold hover:bg-gray-950 transition duration-200">
+<div class="absolute lg:top-10 top-9 left-0 lg:m-0 mr-8">
+    <a href="/" class="bg-indigo-950 text-white lg:py-2 lg:px-4 px-2 rounded-lg font-semibold hover:bg-gray-950 transition duration-200">
         <i class="fas fa-arrow-left"></i> 
     </a>
 </div>
     <div class="max-w-4xl mx-auto bg-white p-4 rounded-lg shadow-lg">
-        <h1 class="text-3xl font-bold text-indigo-950 text-center mb-6">
+        <h1 class="lg:text-3xl text-xl font-bold text-indigo-950 text-center mb-6">
             <i class="fas fa-envelope"></i> How to Vote by Mail
         </h1>
 
@@ -54,7 +54,7 @@
 
      
         <div class="mt-8 text-center">
-            <a href="#" class="bg-gray-950 text-white font-semibold py-2 px-4 rounded hover:bg-indigo-950">
+            <a href="#" class="bg-gray-950 lg:text-lg text-sm text-white font-semibold py-2 px-4 rounded hover:bg-indigo-950">
                 Download Mail-in Ballot Form
             </a>
         </div>

@@ -4,13 +4,13 @@
 
 @section('content')
 <div class="container mx-auto h-screen flex justify-center pt-8 relative">
-<div class="absolute top-10 left-0">
-    <a href="/" class="bg-indigo-950 text-white py-2 px-4 rounded-lg font-semibold hover:bg-gray-950 transition duration-200">
+<div class="absolute lg:top-10 top-9 left-0 lg:m-0 mr-8">
+    <a href="/" class="bg-indigo-950 text-white lg:py-2 lg:px-4 px-2 rounded-lg font-semibold hover:bg-gray-950 transition duration-200">
         <i class="fas fa-arrow-left"></i> 
     </a>
 </div>
     <div class="w-full max-w-lg bg-white rounded-lg shadow-lg">
-        <h1 class="text-3xl font-bold text-indigo-950 text-center mb-6">
+        <h1 class="lg:text-3xl text-xl font-bold text-indigo-950 text-center mb-6">
             <i class="fas fa-user"></i> Voter Registration
         </h1>
 
